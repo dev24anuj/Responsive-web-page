@@ -1,0 +1,73 @@
+body {
+  background-image: url("naoram-sea-V675n9gjyL0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffcc00;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  color: #ffcc00;
+}
+.button {
+  margin: 20px 0;
+}
+.button a {
+  text-decoration: none;
+}
+.button button {
+  background-color: #ffcc00;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button button:hover {
+  background-color: #ff9900;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+#container {
+  text-align: left;
+  margin-top: 20px;
+}
+.post {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.post h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #ffcc00;
+}
+.post p {
+  margin: 10px 0 0;
+  font-size: 1em;
+}
